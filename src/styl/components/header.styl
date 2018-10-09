@@ -11,6 +11,8 @@ header
     align-items center
     &.scrolled
         background $primary
+        height 50px
+
     nav
         text-align center
         transition 0.1s ease-in
@@ -27,8 +29,10 @@ header
         padding 0.2rem
         text-indent -9999px
         background-size contain
-        transition 0.2s ease-in
         background url(../../images/logo.svg) no-repeat
+        &.scrolled
+            height 30px
+            transition 1s ease-in
 
     .menu__link
         padding 18px 2rem
