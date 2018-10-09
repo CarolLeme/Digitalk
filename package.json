@@ -1,0 +1,40 @@
+{
+  "name": "Digitalk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Carol Leme",
+    "email": "carolinamleme99@outlook.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarolLeme/Digitalk.git"
+  },
+  "license": "ISC",
+  "homepage": "https://carolleme.github.io/Digitalk/",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.24.6",
+    "gh-pages": "^2.0.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-stylus": "^2.7.0",
+    "gulp-uglify": "^3.0.1",
+    "jeet": "^7.2.0",
+    "kouto-swiss": "^1.1.0",
+    "rupture": "^0.7.1"
+  }
+}

@@ -1,0 +1,41 @@
+header
+    width 100%
+    padding 2rem 4rem
+    position fixed
+    top 0
+    z-index 100
+    background-color transparent
+    display flex
+    justify-content space-between
+    align-items center
+    &.scrolled
+        background $primary
+    nav
+        text-align center
+        transition 0.1s ease-in
+        font-size 1rem
+        background-color transparent
+        display flex
+        align-items center
+        .menu
+            display flex
+
+    .logo
+        flex 1
+        height 40px
+        padding 0.2rem
+        text-indent -9999px
+        background-size contain
+        transition 0.2s ease-in
+        background url(../../images/logo.svg) no-repeat
+
+    .menu__link
+        padding 18px 2rem
+        color $white
+        display block
+        position relative
+        text-align center
+        text-decoration none
+        &.active
+            font-weight bold
+            color $secondary
