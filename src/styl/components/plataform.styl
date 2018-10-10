@@ -3,6 +3,16 @@
     .plataform_container
         display flex
         align-items center
+        &-reverse
+            flex-direction row-reverse
+
+        // impar
+        // &:nth-child(odd)
+        //     background-color red
+
+        // par
+        // &:nth-child(even)
+        //     background-color blue
 
     .title
         display flex
@@ -22,14 +32,10 @@
 
     .plataform_content
         width 40%
-        margin 10%
+        margin auto
         display flex
         align-items center
         flex-direction column
-
-    // .plataform_content_reverse
-    //     display flex
-    //     flex-flow row-reverse
 
     p
         font-size 1rem
