@@ -39,6 +39,10 @@
         width 550px
         display flex
         flex-direction column
+        &:nth-child(even)
+            margin-left 100px
+        &:nth-child(odd)
+            justify-content flex-end
 
         .plataform_card_header
             color $white
@@ -47,18 +51,19 @@
             flex-direction row
             align-items center
             z-index: 9999;
+            opacity 0.99
             &-whatsapp
                 background url("../../images/plataform_title1.png") no-repeat
                 background-size 280px 100px
-                margin 0 0 -70px 25px
+                margin-bottom -70px
             &-inteligence
                 background url("../../images/plataform_title2.png") no-repeat
-                background-size 67% 100%
-                margin-bottom -15%
+                background-size 280px 100px
+                margin-bottom -70px
             &-dashboard
                 background url("../../images/plataform_title3.png") no-repeat
-                background-size 67% 100%
-                margin-bottom -15%
+                background-size 280px 100px
+                margin-bottom -80px
             .plataform_icon
                 width 50px
                 margin 5%
@@ -69,11 +74,12 @@
             &-whatsapp
                 background url("../../images/plataform_content1.png") no-repeat
                 background-size contain
-                padding 15% 26% 7% 7%
+                padding 15% 35% 7% 5%
             &-inteligence
                 background url("../../images/plataform_content2.png") no-repeat
                 background-size contain
-                padding 15% 26% 7% 7%
+                padding 15% 39% 7% 5%
             &-dashboard
                 background url("../../images/plataform_content3.png") no-repeat
                 background-size contain
+                padding 18% 36% 9% 5%
