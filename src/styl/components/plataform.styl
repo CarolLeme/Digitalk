@@ -36,33 +36,29 @@
                 color $gray
 
     .plataform_card
-        width 28%
+        width 550px
         display flex
         flex-direction column
-        &-whatsapp
-            background url("../../images/plataform_content1.png") no-repeat
-        &-inteligence
-            background url("../../images/plataform_content2.png") no-repeat
-        &-dashboard
-            background url("../../images/plataform_content3.png") no-repeat
 
         .plataform_card_header
             color $white
-            height 10%
+            height 100px
             display flex
             flex-direction row
             align-items center
+            z-index: 9999;
             &-whatsapp
                 background url("../../images/plataform_title1.png") no-repeat
-                background-size 67% 100%
+                background-size 280px 100px
+                margin 0 0 -70px 25px
             &-inteligence
                 background url("../../images/plataform_title2.png") no-repeat
                 background-size 67% 100%
-
+                margin-bottom -15%
             &-dashboard
                 background url("../../images/plataform_title3.png") no-repeat
                 background-size 67% 100%
-
+                margin-bottom -15%
             .plataform_icon
                 width 50px
                 margin 5%
@@ -70,3 +66,14 @@
         .plataform_card_content
             text-align center
             color $white
+            &-whatsapp
+                background url("../../images/plataform_content1.png") no-repeat
+                background-size contain
+                padding 15% 26% 7% 7%
+            &-inteligence
+                background url("../../images/plataform_content2.png") no-repeat
+                background-size contain
+                padding 15% 26% 7% 7%
+            &-dashboard
+                background url("../../images/plataform_content3.png") no-repeat
+                background-size contain
